@@ -1,0 +1,32 @@
+/* style.css */
+
+/* Reset margins and center everything on the screen */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e293b, #0f172a); /* Dark tech theme */
+    color: #f8fafc; /* Crisp white text */
+    text-align: center;
+}
+
+/* Style the "Hello TechWorld," line */
+p:first-of-type {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #38bdf8; /* Cyber blue accent */
+    margin-bottom: 10px;
+}
+
+/* Style the introduction line */
+p:last-of-type {
+    font-size: 1.25rem;
+    color: #cbd5e1; /* Light gray text */
+    max-width: 600px;
+    line-height: 1.6;
+}
